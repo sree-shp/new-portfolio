@@ -50,8 +50,8 @@ function Projects() {
                 planets, seamlessly integrating information on terrain, climate,
                 population, and residents sourced from the Star Wars API. This
                 dynamic platform provides an interactive and immersive
-                experience, allowing users to explore the galaxy's diverse
-                worlds through detailed profiles, enriched with real-time data
+                experience, allowing users to explore the galaxys diverse worlds
+                through detailed profiles, enriched with real-time data
                 retrieved from the SW API
                 {/* <div>Data fetching from Starwars API</div>
               <div>Eye-catching animations</div> */}
