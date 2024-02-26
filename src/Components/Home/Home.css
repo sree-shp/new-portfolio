@@ -24,6 +24,33 @@
   animation: fadeIn 1.5s forwards ease;
 }
 
+.project-button-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.project-button,
+.project-link,
+.github-link {
+  width: 100%;
+}
+
+.project-button {
+  border: 0;
+  background: #04032d;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid #04032d;
+  padding: 0.5rem 1rem;
+  font-size: 1.15rem;
+}
+
+.project-button:hover {
+  background: white;
+  color: #04032d;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

@@ -10,6 +10,48 @@ function Projects() {
         <div className="project-wrapper">
           <div className="project-pane">
             <div className="project-image-container">
+              <img className="project-image" src={starwars} alt="starwars" />
+            </div>
+          </div>
+          <div className="project-details-pane">
+            <div className="project-details-pane-row">
+              <div className="project-name">Starwars Planets</div>
+              <div className="project-tech-stack">React</div>
+
+              <div className="project-abstract">
+                An innovative web development project dedicated to Star Wars
+                planets, seamlessly integrating information on terrain, climate,
+                population, and residents sourced from the Star Wars API. This
+                dynamic platform provides an interactive and immersive
+                experience, allowing users to explore the galaxys diverse worlds
+                through detailed profiles, enriched with real-time data
+                retrieved from the SW API
+              </div>
+            </div>
+            <div className="project-timeline">Feb 2024 - Present</div>
+            <div className="project-button-links">
+              <a
+                className="github-link"
+                href="https://github.com/sree-shp/StarsWars-Planets"
+              >
+                <button className="project-button" type="submit">
+                  View Code
+                </button>
+              </a>
+              <a
+                className="project-link"
+                href="https://starwars-planets-coral.vercel.app/"
+              >
+                <button className="project-button" type="submit">
+                  View Website
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-wrapper">
+          <div className="project-pane">
+            <div className="project-image-container">
               <img className="project-image" src={fash} alt="fash project" />
             </div>
           </div>
@@ -32,32 +74,22 @@ function Projects() {
               </div>
             </div>
             <div className="project-timeline">Sep 2023 - Jan 2024</div>
-          </div>
-        </div>
-        <div className="project-wrapper">
-          <div className="project-pane">
-            <div className="project-image-container">
-              <img className="project-image" src={starwars} alt="starwars" />
-            </div>
-          </div>
-          <div className="project-details-pane">
-            <div className="project-details-pane-row">
-              <div className="project-name">Starwars Planets</div>
-              <div className="project-tech-stack">React</div>
+            <div className="project-button-links">
+              <a
+                className="github-link"
+                href="https://github.com/sree-shp/Fash"
+              >
+                <button className="project-button" type="submit">
+                  View Code
+                </button>
+              </a>
 
-              <div className="project-abstract">
-                An innovative web development project dedicated to Star Wars
-                planets, seamlessly integrating information on terrain, climate,
-                population, and residents sourced from the Star Wars API. This
-                dynamic platform provides an interactive and immersive
-                experience, allowing users to explore the galaxys diverse worlds
-                through detailed profiles, enriched with real-time data
-                retrieved from the SW API
-                {/* <div>Data fetching from Starwars API</div>
-              <div>Eye-catching animations</div> */}
-              </div>
+              <a className="project-link" href="https://fash-store.vercel.app/">
+                <button className="project-button" type="submit">
+                  View Website
+                </button>
+              </a>
             </div>
-            <div className="project-timeline">Feb 2024 - Present</div>
           </div>
         </div>
       </div>

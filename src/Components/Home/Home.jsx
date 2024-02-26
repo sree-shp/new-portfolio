@@ -80,6 +80,7 @@ function Home() {
           <div className="skill-box">MongoDB</div>
           <div className="skill-box">NodeJS</div>
           <div className="skill-box">Java</div>
+          <div className="skill-box">ExpressJS</div>
         </div>
       </div>
     </div>

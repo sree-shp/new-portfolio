@@ -52,18 +52,46 @@
 
 .project-image {
   width: 100%;
+  border-radius: 16px;
 }
 
 .project-details-pane {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .project-details-pane-row {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.project-button-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.project-button,
+.project-link,
+.github-link {
+  width: 100%;
+}
+
+.project-button {
+  border: 0;
+  background: #04032d;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid #04032d;
+  padding: 0.5rem 1rem;
+  font-size: 1.15rem;
+}
+
+.project-button:hover {
+  background: white;
+  color: #04032d;
 }
 
 @media (min-width: 1024px) {
