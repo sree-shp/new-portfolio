@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.navbar {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem;
+  background-color: #04032d;
+}
+
+.hamburger-menu-option {
+  text-decoration: none;
+  color: #04032d;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  position: relative;
+  z-index: 10000;
+}
+
+.hamburger-menu div {
+  width: 30px;
+  height: 2.5px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.hamburger-menu-wrapper {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  z-index: 1000;
+  background: #b3caf5;
+  color: #04032d;
+  height: 100%;
+  width: 60%;
+  padding: 5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  transition: 0.4s;
+  transform: translateX(100%);
+  opacity: 0;
+  backdrop-filter: blur(8px);
+}
+
+.hamburger-menu-wrapper.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.hamburger-menu-option {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+.navbar-links-wrapper {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1.5rem 4rem;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .navbar-links {
+    color: white;
+    text-decoration: none;
+  }
+}
