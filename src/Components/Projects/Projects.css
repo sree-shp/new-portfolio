@@ -1,7 +1,7 @@
 .projects {
   background-color: #04032d;
   color: white;
-  padding: 0rem 1rem 3rem;
+  padding: 0rem 3rem 1rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -81,10 +81,10 @@
 
 .project-button {
   border: 0;
-  background: #04032d;
+  background: #004edf;
   color: white;
   border-radius: 8px;
-  border: 2px solid #04032d;
+  border: 2px solid #004edf;
   padding: 0.5rem 1rem;
   font-size: 1.15rem;
 }

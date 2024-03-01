@@ -3,6 +3,15 @@ import "./Home.css";
 import teamwork from "../../assets/teamwork.jpg";
 import problemsolving from "../../assets/problemsolving.jpg";
 import attentiontodetail from "../../assets/attentiontodetail.jpg";
+import html from "../../assets/html-5.png";
+import css from "../../assets/css-3.png";
+import js from "../../assets/js.png";
+import java from "../../assets/java.png";
+import react from "../../assets/react.png";
+import node from "../../assets/nodejs.png";
+import mongodb from "../../assets/mongodb.png";
+import express from "../../assets/express.png";
+import tailwind from "../../assets/tailwind.png";
 
 function Home() {
   return (
@@ -72,15 +81,30 @@ function Home() {
       <div id="skills">
         <h1 className="skills-heading">Skills</h1>
         <div className="skill-box-wrapper">
-          <div className="skill-box">HTML</div>
-          <div className="skill-box">CSS</div>
-          <div className="skill-box">Javascript</div>
-          <div className="skill-box">SQL</div>
-          <div className="skill-box">ReactJS </div>
-          <div className="skill-box">MongoDB</div>
-          <div className="skill-box">NodeJS</div>
-          <div className="skill-box">Java</div>
-          <div className="skill-box">ExpressJS</div>
+          <div className="skill-box">
+            <img className="skill-img" src={html} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={css} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={js} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={react} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={mongodb} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={node} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={tailwind} />
+          </div>
+          <div className="skill-box">
+            <img className="skill-img" src={java} />
+          </div>
         </div>
       </div>
     </div>

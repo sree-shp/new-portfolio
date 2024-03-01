@@ -24,33 +24,6 @@
   animation: fadeIn 1.5s forwards ease;
 }
 
-.project-button-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-}
-
-.project-button,
-.project-link,
-.github-link {
-  width: 100%;
-}
-
-.project-button {
-  border: 0;
-  background: #04032d;
-  color: white;
-  border-radius: 8px;
-  border: 2px solid #04032d;
-  padding: 0.5rem 1rem;
-  font-size: 1.15rem;
-}
-
-.project-button:hover {
-  background: white;
-  color: #04032d;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -128,17 +101,17 @@
   font-style: normal;
   background: #04032d;
   color: white;
-  padding: 3rem 1.5rem;
+  padding: 1.5rem 3rem;
   text-align: center;
 }
 
 .skill-box-wrapper {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-items: center;
-  grid-row-gap: 20px;
-  grid-column-gap: 10px;
+  justify-content: center;
+  gap: 25px;
   margin: 2rem 0;
   width: 100%;
 }
@@ -154,6 +127,10 @@
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
+}
+
+.skill-img {
+  max-width: 100px;
 }
 
 @media (min-width: 768px) {

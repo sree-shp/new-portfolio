@@ -1,12 +1,57 @@
 import "./Projects.css";
 import fash from "../../assets/fash.png";
 import starwars from "../../assets/starwars.png";
+import worldwise from "../../assets/worldwise.png";
 
 function Projects() {
   return (
     <div className="projects">
       <h1 className="projects-heading">Projects</h1>
       <div className="projects-list-wrapper">
+        <div className="project-wrapper">
+          <div className="project-pane">
+            <div className="project-image-container">
+              <img className="project-image" src={worldwise} alt="starwars" />
+            </div>
+          </div>
+          <div className="project-details-pane">
+            <div className="project-details-pane-row">
+              <div className="project-name">WorldWise</div>
+              <div className="project-tech-stack">React</div>
+
+              <div className="project-abstract">
+                WorldWise is an innovative web application designed to empower
+                users with a comprehensive platform for tracking and managing
+                their global travel experiences. As the lead developer for this
+                project, I orchestrated the development of a user-friendly
+                interface that allows individuals to effortlessly log and
+                visualize their journeys across the globe. Leveraging
+                technologies such as React, WorldWise enables users to input
+                details about each location visited, including dates, photos,
+                and personalized notes.
+              </div>
+            </div>
+            <div className="project-timeline">Feb 2024 - Present</div>
+            <div className="project-button-links">
+              <a
+                className="github-link"
+                href="https://github.com/sree-shp/worldwise"
+              >
+                <button className="project-button" type="submit">
+                  View Code
+                </button>
+              </a>
+              <a
+                className="project-link"
+                href="https://worldwise-liart.vercel.app/"
+              >
+                <button className="project-button" type="submit">
+                  View Website
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="project-wrapper">
           <div className="project-pane">
             <div className="project-image-container">
@@ -28,7 +73,7 @@ function Projects() {
                 retrieved from the SW API
               </div>
             </div>
-            <div className="project-timeline">Feb 2024 - Present</div>
+            <div className="project-timeline">Jan 2024 - Feb 2024</div>
             <div className="project-button-links">
               <a
                 className="github-link"
@@ -73,7 +118,7 @@ function Projects() {
               <div>Robust Security Measures</div> */}
               </div>
             </div>
-            <div className="project-timeline">Sep 2023 - Jan 2024</div>
+            <div className="project-timeline">Sep 2023 - Dec 2023</div>
             <div className="project-button-links">
               <a
                 className="github-link"
