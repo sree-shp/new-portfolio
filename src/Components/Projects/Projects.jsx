@@ -1,7 +1,7 @@
 import "./Projects.css";
 import fash from "../../assets/fash.png";
 import starwars from "../../assets/starwars.png";
-import worldwise from "../../assets/worldwise.png";
+import worldwise from "../../assets/wanderlog.png";
 
 function Projects() {
   return (
@@ -16,19 +16,21 @@ function Projects() {
           </div>
           <div className="project-details-pane">
             <div className="project-details-pane-row">
-              <div className="project-name">WorldWise</div>
-              <div className="project-tech-stack">React</div>
+              <div className="project-name">WanderLog</div>
+              <div className="project-tech-stack">
+                React, MongoDB, Node, Express
+              </div>
 
               <div className="project-abstract">
-                WorldWise is an innovative web application designed to empower
+                WanderLog is an innovative web application designed to empower
                 users with a comprehensive platform for tracking and managing
                 their global travel experiences. As the lead developer for this
                 project, I orchestrated the development of a user-friendly
                 interface that allows individuals to effortlessly log and
                 visualize their journeys across the globe. Leveraging
-                technologies such as React, WorldWise enables users to input
-                details about each location visited, including dates, photos,
-                and personalized notes.
+                technologies such as React, MongoDB, Node, Express, WanderLog
+                enables users to input details about each location visited,
+                including dates and personalized notes.
               </div>
             </div>
             <div className="project-timeline">Feb 2024 - Present</div>
@@ -43,7 +45,7 @@ function Projects() {
               </a>
               <a
                 className="project-link"
-                href="https://worldwise-liart.vercel.app/"
+                href="https://wanderlog-dev.vercel.app/"
               >
                 <button className="project-button" type="submit">
                   View Website
@@ -103,7 +105,9 @@ function Projects() {
           <div className="project-details-pane">
             <div className="project-details-pane-row">
               <div className="project-name"> Fash </div>
-              <div className="project-tech-stack">MERN stack</div>
+              <div className="project-tech-stack">
+                React, MongoDB, Node, Express
+              </div>
 
               <div className="project-abstract">
                 Fash, an innovative e-commerce web development project,
