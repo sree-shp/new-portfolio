@@ -54,7 +54,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="project-wrapper">
+        {/* <div className="project-wrapper">
           <div className="project-pane">
             <div className="project-image-container">
               <img className="project-image" src={starwars} alt="starwars" />
@@ -95,7 +95,7 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="project-wrapper">
           <div className="project-pane">
             <div className="project-image-container">
