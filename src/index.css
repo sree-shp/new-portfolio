@@ -1,3 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Azonix";
+  src: url("./assets/Azonix.otf");
+}
+
+@font-face {
+  font-family: "Noir";
+  src: url("./assets/Noir_medium.otf");
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/regular.otf");
+}
+
+@font-face {
+  font-family: "Quantum";
+  src: url("./assets/Quantum.otf");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +30,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 h1,

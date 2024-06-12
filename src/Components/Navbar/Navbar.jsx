@@ -1,42 +1,28 @@
-import { useState } from "react";
-import "./Navbar.css";
-import { Link } from "react-router-dom";
-
 function Navbar() {
-  const [active, setActive] = useState(false);
   return (
-    <div className="navbar">
-      <Link to="/">
-        <img className="logo" src="logo.jpg" />
-      </Link>
-      <div className="navbar-menu">
-        <div
-          className="hamburger-menu"
-          onClick={() => {
-            setActive(!active);
-          }}
-        >
-          <div></div>
-          <div></div>
-          <div></div>
+    <div className="hidden header md:flex justify-between gap-10 text-white font-manrope absolute top-10">
+      <a
+        className="nav-links hover:text-primary transition-transform hover:scale-110"
+        href="#home"
+      >
+        Home
+      </a>
+      <a
+        className="nav-links hover:text-primary transition-transform hover:scale-110"
+        href="#about"
+      >
+        About
+      </a>
+      <a href="#projects">
+        <div className="nav-links hover:text-primary transition-transform hover:scale-110">
+          Projects
         </div>
-        <div className={`hamburger-menu-wrapper ${active ? "active" : ""}`}>
-          <Link className="hamburger-menu-option" to="/Projects">
-            <div>Projects</div>
-          </Link>
-          {/* <Link className="hamburger-menu-option" to="/Contact">
-            <div>Contact</div>
-          </Link> */}
+      </a>
+      <a href="#contact">
+        <div className="nav-links hover:text-primary transition-transform hover:scale-110">
+          Contact
         </div>
-      </div>
-      <div className="navbar-links-wrapper">
-        <Link className="navbar-links" to="/Projects">
-          <div>Projects</div>
-        </Link>
-        {/* <Link className="navbar-links" to="/Contact">
-          <div>Contact</div>
-        </Link> */}
-      </div>
+      </a>
     </div>
   );
 }
